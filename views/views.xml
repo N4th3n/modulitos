@@ -41,6 +41,9 @@
     <!-- EL ACTION ES EL RECORD O FORMULARIO CREADO ARRIBA DE ESTE  -->
     <menuitem name="Propiedades" id="second.menu_1_list" parent=""
       action="second.action_window"/>
+      
+    <menuitem id="test_first_level_menu" name="primer_nivel" parent="second.menu_1_list" />
+
 
 
     <!-- explicit list view definition -->

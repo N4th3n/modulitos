@@ -6,7 +6,8 @@ class second(models.Model):
     _name = 'segundo.second'
     _description = 'mi segundo intento'
 
-    name = fields.Char("Nombre")
+
+    name = fields.Char("Nombre", required=True)
     description = fields.Text("Descripcion")
     postcode = fields.Char("Postcode")
     date_availability = fields.Date("Fecha de Disponibilidad")
